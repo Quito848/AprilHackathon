@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 
 namespace AprilHackathon.Test
 {
@@ -14,6 +9,12 @@ namespace AprilHackathon.Test
         public void ReturnHelloWorldTest()
         {
             Assert.That(new Foo().ReturnHelloWorld(), Is.EqualTo("Hello World"));
+        }
+
+        [Test]
+        public void ReturnTwoTest()
+        {
+            Assert.That(new Foo().ReturnTwo(), Is.EqualTo(2));
         }
     }
 }
