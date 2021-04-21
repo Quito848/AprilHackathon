@@ -4,7 +4,9 @@
     {
         public string ReturnHelloWorld()
         {
-            return "Hello World";
+            var a = "Hello";
+            var b = "World";
+            return $"{a} {b}";
         }
 
         public int ReturnTwo()
