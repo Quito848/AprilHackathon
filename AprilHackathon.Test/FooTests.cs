@@ -18,9 +18,9 @@ namespace AprilHackathon.Test
         }
 
         [Test]
-        public void CheckFibonacci()
+        public void ReturnFibonacciTest()
         {
-            Assert.That(new Foo().Fibbonacci(4), Is.EqualTo(8));
+            Assert.That(new Foo().ReturnFibonacci(4), Is.EqualTo(8));
         }
     }
 }
