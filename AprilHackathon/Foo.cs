@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AprilHackathon
 {
-    class Foo
+    public class Foo
     {
         public string ReturnHelloWorld()
         {
