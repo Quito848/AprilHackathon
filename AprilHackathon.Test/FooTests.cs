@@ -16,5 +16,11 @@ namespace AprilHackathon.Test
         {
             Assert.That(new Foo().ReturnTwo(), Is.EqualTo(2));
         }
+
+        [Test]
+        public void CheckFibonacci()
+        {
+            Assert.That(new Foo().Fibbonacci(4), Is.EqualTo(8));
+        }
     }
 }
